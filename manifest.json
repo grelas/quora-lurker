@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Quora Lurker",
+  "version": "1.0",
+  "description": "Don't want to see unanswered questions? Get straight to the point.",
+
+  "icons": {
+    "48": "img/twitter-48.png",
+    "128": "img/twitter.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+              "*://*.quora.com/*"
+      ],
+      "css": ["css/main.css"],
+      "js": ["js/jquery.min.js", "js/jquery.ba-throttle-debounce.min.js", "js/script.js"],
+      "run_at": "document_start"
+    }
+  ],
+
+  "permissions": 
+  [
+     "*://*.quora.com/"
+  ]
+}

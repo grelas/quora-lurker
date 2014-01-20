@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Lora:400,700,400italic,700italic);
+/*
+html {
+  -webkit-font-smoothing: antialiased !important;
+}*/
+body {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif !important;
+  opacity: 0 !important;
+  transition: opacity 250ms linear;
+}
+
+body.lurker-extension-show {
+  opacity:1 !important;
+}
+
+.simple_type.feed_item.new_feed h3 .question_link, 
+.simple_type.feed_item.new_feed .board_item_title, 
+.simple_type.feed_item.new_feed .board_item_title a {
+  font-size: 18px !important;
+  line-height: 1.25em !important;
+  font-family: 'Lora', serif !important;
+  font-weight:600 !important;
+}
+
+.new_feed.feed_item .feed_item_reasons_user .user
+.new_feed.feed_item .feed_item_title .topic_name ,
+.new_feed.feed_item .feed_item_reasons_user .user, 
+.new_feed.feed_item .feed_item_title .topic_name,
+.follow_button, 
+.submit_button, 
+.action_button, 
+.lil_action_button {
+  font-weight: 600 !important;
+}
+
+.simple_type.feed_item.new_feed h3 .question_link, .simple_type.feed_item.new_feed .board_item_title, .simple_type.feed_item.new_feed .board_item_title a {
+  color: #242d38 !important;
+}
+
+
+.inline.truncated_q_text {
+  padding:8px !important;
+}
+
+
+.focus_feed .contents.main_content {
+  padding-top:65px !important;
+}
+
+.focus_feed .left_col.narrow_left_col,
+.right_col,
+.nav_list .header_add_question_button {
+  display:none !important;
+}
+
+.contents .logo {
+  margin-left: 125px !important;
+}
+
+.header {
+  background: #A82400 !important;
+}
+
+.nav_item.has_nav_menu {
+  color:#fff !important;
+}
+
+.nav_list .count {
+  border:none !important;
+  box-shadow:none !important;
+  background-color: #FFF !important;
+  color: #000 !important;
+}
+
+.search_input {
+  border:none !important;
+}
+
+.p1 {
+  padding: 15px 0 !important;
+}
+
+.feed_item .feed_item_photo {
+  top: 20px !important;
+}
+
+.feed_item .item_action_bar a {
+  text-transform: uppercase !important;
+  font-size: 11px !important;
+  margin-right: 6px !important;
+}
+
+.feed_item_answer_content.answer_content {
+  border:2px solid #eee;
+  border-radius:2px !important;
+  margin-top:10px !important;
+}
+
+.feed_item_board .rating_options,
+.feed_item_answer .rating_options {
+  margin-top:10px !important;
+}
+
+.upvote_with_number .rate_up .rating_value:hover,
+.upvote_with_number .rate_up .rating_value:hover,
+.upvote_with_number .rate_up:hover .rating_value, 
+.upvote_with_number .rate_up.lil_button_active .rating_value, 
+.upvote_with_number .rate_up.user_rating .rating_value {
+  background: #fff !important;
+  color:#19558D !important;
+  text-shadow: none !important;
+}
+
+.lil_button_active, .lil_button:hover, .lil_button.jsHover {
+  background-position:left top !important;
+}
+.lil_button,
+.upvote_with_number .rating_value {
+  background-color:#fff !important;
+}
+
+.upvote_with_number .rate_up {
+  min-height: 15px !important;
+}
+
+.simple_type.feed_item.new_feed .answer_text .answer_user {
+  margin-top:0px !important;
+  padding: 8px !important;
+  background: #eeeeee !important;
+}
+
+.new_feed.feed_item .feed_item_photo .profile_photo_img {
+  margin: 0 0 0 -30px !important;
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 5px !important;
+}
+
+.feed_item_answer.answer_text {
+  padding-top:1px !important;
+}
+
+.vote_item_link.add_upvote,
+.item_action_bar .bullet,
+.feed_item_title .timestamp {
+  display:none !important;
+}
